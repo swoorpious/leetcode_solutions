@@ -2,7 +2,7 @@
 
 This repo contains solutions to various LeetCode problems that I solved for practice.
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/swoorpious?theme=chartreuse\&font=Share%20Tech%20Mono\&ext=heatmap)
+![LeetCode Stats](https://leetcard.jacoblin.cool/swoorpious?theme=dark&font=Share%20Tech%20Mono&ext=heatmap)
 
 ## Repository Structure
 
