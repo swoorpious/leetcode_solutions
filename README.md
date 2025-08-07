@@ -6,9 +6,10 @@ This repo contains solutions to various LeetCode problems that I solve for pract
 
 ## Repository Structure
 
-```
+```md
 leetcode_solutions/
 ├── Easy/
-├── Medium/
 ├── Hard/
+├── Medium/
+├── Notes/
 ```
