@@ -1,4 +1,4 @@
-class Solution {
+class SolutionOne {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int /* val */, int /* index */> freqMap;
@@ -17,5 +17,24 @@ public:
         }
 
         return res;
+    }
+};
+
+
+/* given that each case will have one solution defined */
+class SolutionTwo {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int /* val */, int /* index */> freqMap;
+
+        for (int i = 0; i < nums.size(); i++) {
+            if (freqMap.find(target - nums[i]) != freqMap.end())
+                return {freqMap[target - nums[i]], i};
+
+
+            freqMap[nums[i]] = i;
+        }
+
+        return {};
     }
 };
